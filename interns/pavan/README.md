@@ -1,3 +1,5 @@
 # Pavan
 
-_Intro coming soon — complete Git basics Task 01._
+- **Name:** Paul Pavan Kumar
+- **Start Date:** 28 July 2026
+- **Learning Goal:** I want to learn Web, React and Node.js.
