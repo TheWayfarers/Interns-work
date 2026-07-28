@@ -1,4 +1,4 @@
-# Week 01 — Learning Notes
+# Learning Notes
 
 ## Git
 
@@ -8,20 +8,20 @@
 - `git commit -m "message"` — save a snapshot of your work
 - Pull Request — ask mentor to review and merge your branch
 
-## HTML (preview for next week)
+## HTML
 
 - `<!DOCTYPE html>` — tells browser this is an HTML5 page
 - `<head>` — metadata (title, links to CSS)
 - `<body>` — visible content on the page
 - Semantic tags: `<header>`, `<main>`, `<footer>`, `<section>`
 
-## CSS (preview for next week)
+## CSS
 
 - Selector `{ property: value; }` — how you style elements
 - `class="card"` — reuse styles across elements
 - Flexbox — layout items in a row or column
 
-## JavaScript (preview for next week)
+## JavaScript
 
 - `const` / `let` — declare variables
 - Functions — reusable blocks of code

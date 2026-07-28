@@ -6,8 +6,9 @@ Daily practice repo for learning **Web, React, and Node** — and Git along the 
 
 1. Clone this repo
 2. Read [CONTRIBUTING.md](CONTRIBUTING.md)
-3. Start with [Week 01 tasks](practices/week-01-git-basics/)
-4. Work only inside your folder: `interns/<your-name>/`
+3. See what to cover → [Learning path](docs/learning-path.md)
+4. Start tasks → [Git basics](practices/git-basics/)
+5. Work only inside your folder: `interns/<your-name>/`
 
 ## Folder guide
 
@@ -37,6 +38,9 @@ interns-work/
 
 ## Help
 
+- What to learn → [docs/learning-path.md](docs/learning-path.md)
+- All tasks & targets → [practices/](practices/)
 - Git commands → [docs/git-cheatsheet.md](docs/git-cheatsheet.md)
 - Workflow details → [CONTRIBUTING.md](CONTRIBUTING.md)
+- Sample files → [interns/_example/](interns/_example/)
 - Questions → ask your mentor

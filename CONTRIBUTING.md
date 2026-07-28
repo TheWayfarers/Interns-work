@@ -17,7 +17,7 @@
 
 ```
 intern/pranav/day-01-setup
-intern/varshitha/week-01-html-basics
+intern/varshitha/html-basics
 ```
 
 Use lowercase names. Keep it short and clear.

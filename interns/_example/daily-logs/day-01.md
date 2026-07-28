@@ -16,5 +16,5 @@
 
 ## Tomorrow's plan
 
-- Complete Task 02 — first daily log
+- First daily log done
 - Read about HTML document structure

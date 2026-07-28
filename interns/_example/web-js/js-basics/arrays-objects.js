@@ -22,7 +22,7 @@ console.log("Starts with R:", found);
 // Object
 const intern = {
   name: "Varshitha",
-  week: 2,
+  track: "web-js",
   completed: ["git-setup", "daily-log"],
 };
 
@@ -30,5 +30,5 @@ console.log(intern.name);
 console.log("Completed tasks:", intern.completed.join(", "));
 
 // Destructuring
-const { name, week } = intern;
-console.log(`${name} is on week ${week}`);
+const { name, track } = intern;
+console.log(`${name} — track: ${track}`);
