@@ -6,7 +6,7 @@
 - `git checkout -b branch-name` — create and switch to a new branch
 - `git add .` — stage your changes before commit
 - `git commit -m "message"` — save a snapshot of your work
-- Pull Request — ask mentor to review and merge your branch
+- Pull Request — ask mentor to review; merge after approval
 
 ## HTML
 
