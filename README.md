@@ -17,7 +17,7 @@ interns-work/
 ├── practices/          → Assignments from mentor (same for everyone)
 ├── interns/            → Your personal work (one folder per person)
 ├── templates/          → Copy these for daily logs
-└── docs/               → Git cheatsheet and references
+└── docs/               → Cheatsheets, learning path, reference links
 ```
 
 ## Intern folders
@@ -31,15 +31,18 @@ interns-work/
 
 ## Git rules (short)
 
-- Do **not** commit directly to `master`
-- Create a branch: `intern/<your-name>/<task>`
-- Open a **Pull Request** for every task
+- Always create branches **from `master`** — run `git pull` first
+- Do **not** commit or push directly to `master`
+- Branch name: `intern/<your-name>/<task>`
+- Open a **Pull Request** into `master` for every task
+- **Merge after mentor approval** — not before
 - Only edit your own folder unless the task says otherwise
 
 ## Help
 
 - What to learn → [docs/learning-path.md](docs/learning-path.md)
 - All tasks & targets → [practices/](practices/)
+- Learn & reference links → [docs/references.md](docs/references.md) — includes [Full Stack Open](https://fullstackopen.com/en/) + video courses
 - Git commands → [docs/git-cheatsheet.md](docs/git-cheatsheet.md)
 - Workflow details → [CONTRIBUTING.md](CONTRIBUTING.md)
 - Sample files → [interns/_example/](interns/_example/)

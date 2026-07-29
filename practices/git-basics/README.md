@@ -2,16 +2,30 @@
 
 **Goal:** Learn the Git workflow we use every day — branch, commit, push, PR, review.
 
+**References:** [Git & GitHub links](../../docs/references.md#git--github) · [Git cheatsheet](../../docs/git-cheatsheet.md)
+
+---
+
+## Workflow (read this first)
+
+1. **Branch from `master`** — always `git checkout master` → `git pull` → then create your branch
+2. **Work on your branch** — commit and push there only
+3. **Open PR into `master`** — base branch is always `master`
+4. **Mentor reviews** — fix comments if asked, push to the same branch
+5. **You merge** — once mentor approves, merge the PR on GitHub
+6. **Pull `master` again** — before starting the next task
+
 ---
 
 ## What to learn
 
 - [ ] Clone a repo and navigate the folder structure
-- [ ] Create a branch with the correct naming format
+- [ ] Create a branch **from `master`** with the correct naming format
 - [ ] Stage, commit, and push changes
-- [ ] Open a Pull Request on GitHub
+- [ ] Open a Pull Request (base: `master`)
 - [ ] Update a PR after review feedback
-- [ ] Explain: `clone`, `branch`, `commit`, `push`, `pull`, `PR`
+- [ ] Know when to merge (after mentor approval, not before)
+- [ ] Explain: `clone`, `branch`, `commit`, `push`, `pull`, `PR`, `merge`
 
 ---
 
@@ -31,7 +45,8 @@ Update `interns/<your-name>/README.md` with:
 
 ### Submit
 - File: `interns/<your-name>/README.md`
-- Open a PR → request review from mentor
+- Open a PR into `master` → request review from mentor
+- Merge after approval
 
 ### Reference
 - `interns/_example/README.md`
