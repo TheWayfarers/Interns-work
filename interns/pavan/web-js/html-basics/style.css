@@ -1,0 +1,20 @@
+body{
+    background: color #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px gray;
+  }
+
+  footer{
+    font-size: small;
+    color: aliceblue;
+  }
+
+  main {
+    display: flex;
+    gap: 20px;
+}
