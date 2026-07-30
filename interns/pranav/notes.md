@@ -1,11 +1,27 @@
-# Learning Notes
+## Web & JavaScript Self-Check
 
-## Async JavaScript
+### HTML
+- [x] HTML5 document structure
+- [x] Common HTML tags
+- [x] Semantic tags: header, main, footer
 
-### What is a Promise?
+### CSS
+- [x] Element, class, and ID selectors
+- [x] Box model: margin, padding, border
+- [x] Flexbox
+- [x] Linking an external stylesheet
 
-A Promise represents a result that may become available later. It can either complete successfully or fail, which helps us handle asynchronous operations in JavaScript.
+### JavaScript
+- [x] const and let
+- [x] Strings, numbers, booleans, arrays, and objects
+- [x] Regular and arrow functions
+- [x] map(), filter(), and forEach()
+- [x] Objects and destructuring
+- [x] DOM manipulation and event listeners
+- [x] Promises and async/await basics
 
-### Why does "End" print before "Data loaded"?
+### What I want to improve
 
-"End" prints first because JavaScript continues running the synchronous code while the asynchronous operation is still waiting. Once that operation finishes, "Data loaded" is printed.
+- Practice DOM manipulation with more examples.
+- Get more comfortable with Promises and async/await.
+- Learn React concepts such as components, props, and state.
