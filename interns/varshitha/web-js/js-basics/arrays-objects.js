@@ -1,37 +1,18 @@
-// Run with: node arrays-objects.js
+const places = ["Goa", "Rajasthan", "Kashmir", "Kerala"];
 
-const places = ["Goa", "Manali", "Kashmir", "Kerala"];
+const tripPlans = places.map((place) => `visit ${place}`);
+console.log("\nTravel places:", tripPlans);
 
-// Loop
-console.log("Places to Visit:");
-for (const place of places) {
-    console.log("-", place);
-}
-
-// map — transform each item
-const tripPlans = places.map((place) => `Trip to ${place}`);
-console.log("\nTrip Plans:", tripPlans);
-
-// filter — keep items that match a condition
-const longDestinations = places.filter((place) => place.length > 5);
+const longDestinations = places.filter((place) => place.length > 6);
 console.log("\nLong Destinations:", longDestinations);
 
-// find — get first match
-const foundPlace = places.find((place) => place.startsWith("K"));
-console.log("\nStarts with K:", foundPlace);
-
-// Object
 const traveler = {
     name: "Varshitha",
-    favoritePlace: "Kerala",
-    visitPlaces: ["Goa", "Manali", "Kashmir"]
+    seatno: "A9",
+    transport: "flight",
 };
+console.log("Name: " + traveler.name  + " Parupally!");
 
-console.log("\nTraveler Name:", traveler.name);
-console.log("Places Visited:", traveler.visitPlaces.join(", "));
+const {seatno, transport} = traveler;
+console.log(`${traveler.name} is traveling by ${transport} and her seat number is ${seatno}.`);
 
-// Destructuring
-const { name, favoritePlace, visitPlaces } = traveler;
-
-console.log(`\n${name}'s favorite place is ${favoritePlace}.`);
-console.log("Places to Visit:", visitPlaces.join(", "));
