@@ -16,7 +16,7 @@ const student = {
     role: "Intern"
 };
 
-// Template Literals
+//Literals
 console.log(`Name: ${name}`);
 console.log(`Score: ${score}`);
 console.log(`Skills: ${skills.join(", ")}`);
