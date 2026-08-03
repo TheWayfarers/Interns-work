@@ -7,11 +7,12 @@ const totalAmount = document.getElementById("totalAmount");
 const totalEntries = document.getElementById("totalEntries");
 
 expenseForm.addEventListener("submit", function (e) {
+
     e.preventDefault();
 
     const amount = Number(document.getElementById("amount").value);
     const category = document.getElementById("category").value;
-    const note = document.getElementById("note").value;
+    const note = document.getElementById("note").value.trim();
 
     if (amount <= 0 || category === "") {
         alert("Please enter a valid amount and select a category.");
@@ -31,6 +32,7 @@ expenseForm.addEventListener("submit", function (e) {
     expenseForm.reset();
 
     renderExpenses();
+
 });
 
 function renderExpenses() {
@@ -38,32 +40,38 @@ function renderExpenses() {
     let visibleExpenses = expenses;
 
     if (currentFilter !== "All") {
-        visibleExpenses = expenses.filter(
-            expense => expense.category === currentFilter
+
+        visibleExpenses = expenses.filter(expense =>
+            expense.category === currentFilter
         );
+
     }
 
     expenseList.innerHTML = "";
 
     if (visibleExpenses.length === 0) {
+
         expenseList.innerHTML =
             `<p class="empty">No expenses yet. Add your first one above.</p>`;
+
     } else {
 
         visibleExpenses.forEach(expense => {
 
             const card = document.createElement("div");
+
             card.className = "expense-card";
 
             card.innerHTML = `
-                <div>
+                <div class="expense-info">
                     <h3>₹${expense.amount}</h3>
 
-                    <span class="badge ${expense.category.toLowerCase()}">
-                        ${expense.category}
-                    </span>
-
-                    <p>${expense.note}</p>
+                    <p>
+                        <span class="badge ${expense.category.toLowerCase()}">
+                            ${expense.category}
+                        </span>
+                        ${expense.note}
+                    </p>
 
                     <small>${expense.date}</small>
                 </div>
@@ -83,17 +91,18 @@ function renderExpenses() {
 
     totalAmount.textContent =
         "₹" +
-        visibleExpenses.reduce(
-            (sum, expense) => sum + expense.amount,
-            0
-        );
+        visibleExpenses.reduce((sum, expense) =>
+            sum + expense.amount, 0);
 
     totalEntries.textContent = visibleExpenses.length;
+
 }
 
 function deleteExpense(id) {
 
-    expenses = expenses.filter(expense => expense.id !== id);
+    expenses = expenses.filter(expense =>
+        expense.id !== id
+    );
 
     renderExpenses();
 
