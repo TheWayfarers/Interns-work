@@ -25,6 +25,15 @@ interns/your-name/
     │   └── Counter.jsx
     └── node-basics/
         └── hello.js
+└── tasks/
+    ├── 01-expense-tracker/
+    │   ├── index.html
+    │   ├── style.css
+    │   └── script.js
+    ├── 02-contact-book/
+    │   └── ...
+    └── 03-study-timer/
+        └── ...
 ```
 
 ## Sample files
@@ -42,6 +51,13 @@ interns/your-name/
 | `web-js/html-basics/` | HTML + CSS page |
 | `web-js/react-basics/Counter.jsx` | Simple React component |
 | `web-js/node-basics/hello.js` | Node script — run with `node hello.js` |
+| `tasks/01-expense-tracker/` | Mini-project layout — `index.html`, `style.css`, `script.js` |
+
+## Mini-project tasks
+
+Full project specs live in [tasks/](../../tasks/). Work goes in `interns/<your-name>/tasks/01-expense-tracker/` (same folder name as the task).
+
+See [Task 01 spec](../../tasks/01-expense-tracker/) for requirements. Build your own version — do not copy from others.
 
 ## How to run JS examples
 

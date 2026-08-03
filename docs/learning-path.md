@@ -38,7 +38,23 @@ Topics to cover, in order. Follow `practices/` for exact tasks. **No fixed timel
 
 ---
 
-## 3. React *(coming soon)*
+## 3. Mini-projects (HTML + CSS + JS)
+
+**Focus:** Build real small apps in the browser — one task at a time.
+
+| # | Project | Outcome |
+|---|---------|---------|
+| 01 | Expense Tracker | Forms, arrays, filter, totals |
+| 02 | Contact Book | CRUD, search, validation |
+| 03 | Study Timer | Intervals, state, DOM updates |
+
+→ [Mini-project tasks](../tasks/)
+
+**Learn:** [HTML, CSS, JS references](references.md) · [Video tutorials](references.md#video-references-free)
+
+---
+
+## 4. React *(coming soon)*
 
 **Focus:** Components, props, state.
 
@@ -52,7 +68,7 @@ Topics to cover, in order. Follow `practices/` for exact tasks. **No fixed timel
 
 ---
 
-## 4. Node.js *(coming soon)*
+## 5. Node.js *(coming soon)*
 
 **Focus:** JavaScript on the server.
 
@@ -72,7 +88,7 @@ Whenever you work:
 
 1. `git checkout master && git pull` — start from latest
 2. New branch from `master` for today's task
-3. Pick the next task from `practices/`
+3. Pick the next task from `practices/` or `tasks/`
 4. Add or update a daily log in your folder
 5. Push + open PR into `master`
 6. Get mentor approval → then merge the PR
@@ -83,6 +99,7 @@ Whenever you work:
 ## References
 
 - Examples: `interns/_example/`
+- **Mini-projects:** [tasks/](../tasks/)
 - **Learn & reference links:** [references.md](references.md) — includes [Full Stack Open](https://fullstackopen.com/en/)
 - Git commands: [git-cheatsheet.md](git-cheatsheet.md)
 - Workflow: [CONTRIBUTING.md](../CONTRIBUTING.md)

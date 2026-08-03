@@ -6,6 +6,7 @@ Work through topics **in order**. Each module has **what to learn** and **tasks*
 |--------|-------|---|
 | [Git basics](git-basics/) | Repo workflow, branches, PRs | Start here |
 | [Web & JavaScript](web-js/) | HTML, CSS, JavaScript | After Git basics |
+| [Mini-projects](../tasks/) | Expense Tracker, Contact Book, Study Timer | After basics (or when assigned) |
 | React | Components, state, props | Coming soon |
 | Node.js | Server-side JavaScript | Coming soon |
 
@@ -28,3 +29,5 @@ Every task includes:
 ## Example work
 
 See `interns/_example/` for sample files and folder structure.
+
+**Full mini-projects:** [tasks/](../tasks/) — complete one at a time.

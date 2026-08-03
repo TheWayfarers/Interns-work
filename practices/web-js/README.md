@@ -6,6 +6,8 @@ Complete Git basics first, then work through these tasks in order.
 
 **References:** [HTML](../../docs/references.md#html) · [CSS](../../docs/references.md#css) · [JavaScript](../../docs/references.md#javascript) · [Tools](../../docs/references.md#tools--setup)
 
+**Ready for a full project?** → [tasks/](../../tasks/)
+
 ---
 
 ## What to learn
