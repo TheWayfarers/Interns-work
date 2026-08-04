@@ -24,4 +24,5 @@
 
 - Practice functions and DOM manipulation.
 - Develop and work on projects.
+- Understand more about promises and async/await.
 
