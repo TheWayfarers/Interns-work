@@ -1,18 +1,19 @@
-# Daily Log — 2026-08-05
+# Daily Log — 2026-08-04
 
 ## What I learned today
 
-- Learned how to use `setInterval()` and `clearInterval()` to build a countdown timer.
-- Improved my understanding of timer state management using JavaScript.
-- Practiced updating the DOM every second and managing button states.
+- Learned CRUD (Create, Read, and Delete) operations using JavaScript arrays.
+- Improved my understanding of DOM manipulation, search functionality, and form validation.
 
 ## What I practiced / built
 
-- Built a Pomodoro-style Study Timer using HTML, CSS, and JavaScript.
-- Added customizable study and break durations.
-- Implemented Start, Pause, and Reset functionality.
-- Automatically switched between Study and Break modes when the timer reached zero.
+- Built a Contact Book application using HTML, CSS, and JavaScript.
+- Implemented features to add, search, and delete contacts.
+- Added phone number validation to allow only valid 10-digit numbers.
+- Displayed the contact count dynamically.
+- Designed a responsive card-based user interface with avatar initials.
 
 ## Blockers / Questions
 
-- Interested in learning how to add sound notifications and save timer settings using localStorage in future improvements.
+- No major blockers today.
+- I would like to learn how to edit contacts and save data using localStorage in future tasks.
