@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Pomodoro Study Timer</h1>
+
+        <p id="modeLabel" class="mode">
+            📚 Study Time
+        </p>
+
+        <!-- Timer Settings -->
+
+        <div class="settings">
+
+            <div class="input-group">
+
+                <label for="studyTime">
+                    Study Duration (minutes)
+                </label>
+
+                <input
+                    type="number"
+                    id="studyTime"
+                    min="1"
+                    value="25"
+                >
+
+            </div>
+
+            <div class="input-group">
+
+                <label for="breakTime">
+                    Break Duration (minutes)
+                </label>
+
+                <input
+                    type="number"
+                    id="breakTime"
+                    min="1"
+                    value="5"
+                >
+
+            </div>
+
+        </div>
+
+        <!-- Timer -->
+
+        <div id="timerCircle" class="timer-circle study">
+
+            <h2 id="timer">
+                25:00
+            </h2>
+
+        </div>
+
+        <!-- Buttons -->
+
+        <div class="controls">
+
+            <button id="startBtn">
+                ▶ Start
+            </button>
+
+            <button id="pauseBtn" disabled>
+                ⏸ Pause
+            </button>
+
+            <button id="resetBtn">
+                🔄 Reset
+            </button>
+
+        </div>
+
+        <!-- Sessions -->
+
+        <div class="session-box">
+
+            <h3>
+                Completed Sessions
+            </h3>
+
+            <span id="sessions">
+                0
+            </span>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <p>
+            
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
