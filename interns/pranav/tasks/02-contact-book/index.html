@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Contact Book</h1>
+        <p><span id="contactCount">0</span> Contacts</p>
+    </header>
+
+    <main>
+
+        <!-- Add Contact -->
+        <section class="card">
+
+            <h2>Add Contact</h2>
+
+            <form id="contactForm">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Enter Name"
+                    required
+                >
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter 10-digit Phone Number"
+                    maxlength="10"
+                    required
+                >
+
+                <button type="submit">
+                    Add Contact
+                </button>
+
+            </form>
+
+        </section>
+
+        <!-- Search -->
+        <section class="card">
+
+            <h2>Search Contact</h2>
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search by name..."
+            >
+
+        </section>
+
+        <!-- Contact List -->
+        <section class="card">
+
+            <h2>Saved Contacts</h2>
+
+            <div id="contactList">
+
+                <p class="empty">
+                    No contacts saved yet.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
