@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background: linear-gradient(135deg, #111827, #1f2937);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.6rem;
+    margin-bottom: 15px;
+    color: #f9fafb;
+}
+
+.mode {
+    font-size: 1.3rem;
+    color: #d1d5db;
+    margin-bottom: 30px;
+}
+
+/* Settings */
+
+.settings {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-group label {
+    color: #d1d5db;
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 140px;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    outline: none;
+    background: white;
+    color: #111827;
+}
+
+.input-group input:disabled {
+    background: #d1d5db;
+    cursor: not-allowed;
+}
+
+/* Timer */
+
+.timer-circle {
+    width: 280px;
+    height: 280px;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #22c55e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    box-shadow: 0 0 30px rgba(34,197,94,0.35);
+}
+
+.timer-circle.break {
+    border-color: #f97316;
+    box-shadow: 0 0 30px rgba(249,115,22,0.35);
+}
+
+#timer {
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+
+/* Buttons */
+
+.controls {
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#startBtn {
+    background: #22c55e;
+    color: white;
+}
+
+#pauseBtn {
+    background: #f59e0b;
+    color: white;
+}
+
+#resetBtn {
+    background: #ef4444;
+    color: white;
+}
+
+button:hover:not(:disabled) {
+    transform: translateY(-3px);
+}
+
+button:disabled {
+    opacity: .5;
+    cursor: not-allowed;
+}
+
+/* Session Counter */
+
+.session-box {
+    margin-top: 35px;
+}
+
+.session-box h3 {
+    color: #d1d5db;
+    margin-bottom: 10px;
+}
+
+#sessions {
+    font-size: 48px;
+    font-weight: bold;
+    color: #38bdf8;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 50px;
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+/* Mobile */
+
+@media (max-width: 650px) {
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .timer-circle {
+        width: 220px;
+        height: 220px;
+    }
+
+    #timer {
+        font-size: 3rem;
+    }
+
+    .controls {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    button {
+        width: 220px;
+    }
+
+    .settings {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

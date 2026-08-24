@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>📒 Contact Book</h1>
+            <p id="contactCount">0 Contacts</p>
+        </header>
+
+        <section class="card">
+
+            <h2>Add New Contact</h2>
+
+            <form id="contactForm">
+
+                <div class="form-group">
+
+                    <div class="input-box">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Enter name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phoneNo" placeholder="Enter 10-digit phone number" maxlength="10" pattern="[0-9]{10}" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input type="email" id="emailId" placeholder="Enter email address" required>
+                    </div>
+
+                </div>
+
+                <button type="submit" id="addBtn">
+                    Add Contact
+                </button>
+
+            </form>
+
+        </section>
+
+        <section class="card">
+
+            <div class="search-box">
+
+                <input type="text" id="search" placeholder="Search by name...">
+
+                <button type="button" id="sortBtn">
+                    Sort A-Z
+                </button>
+
+            </div>
+
+        </section>
+
+        <section class="card">
+
+            <h2>Your Contacts</h2>
+
+            <div id="contactList">
+
+                <div id="emptyState">
+                    <h3>No contacts saved yet.</h3>
+                </div>
+
+            </div>
+
+        </section>
+
+        <footer>
+            <p>Created by Varshitha | 05 August 2026</p>
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

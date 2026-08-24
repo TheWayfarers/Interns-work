@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Expense Tracker</h1>
+    <p>Track your daily expenses and spending.</p>
+</header>
+
+<main>
+
+    <section class="card">
+        <h2>Add Expense</h2>
+
+        <form id="expenseForm">
+
+            <input
+                type="number"
+                id="amount"
+                placeholder="Amount"
+                required
+            >
+
+            <select id="category" required>
+                <option value="">Select Category</option>
+                <option>Food</option>
+                <option>Travel</option>
+                <option>Shopping</option>
+                <option>Other</option>
+            </select>
+
+            <input
+                type="text"
+                id="note"
+                placeholder="Note"
+            >
+
+            <button type="submit">
+                Add Expense
+            </button>
+
+        </form>
+    </section>
+
+    <section class="card">
+        <h2>Summary</h2>
+
+        <p>Total Spent: <strong id="totalAmount">₹0</strong></p>
+        <p>Total Entries: <strong id="totalEntries">0</strong></p>
+    </section>
+
+    <section class="card">
+
+        <h2>Filter</h2>
+
+        <div class="filters">
+
+            <button data-filter="All">All</button>
+            <button data-filter="Food">Food</button>
+            <button data-filter="Travel">Travel</button>
+            <button data-filter="Shopping">Shopping</button>
+            <button data-filter="Other">Other</button>
+
+        </div>
+
+    </section>
+
+    <section class="card">
+
+        <h2>Expenses</h2>
+
+        <div id="expenseList">
+            <p class="empty">
+                No expenses yet. Add your first one above.
+            </p>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
