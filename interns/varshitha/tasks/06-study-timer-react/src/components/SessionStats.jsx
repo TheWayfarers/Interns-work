@@ -1,35 +1,57 @@
+import { useMemo } from "react";
+
 import { useTimer } from "../context/TimerContext";
+import StatCard from "./StatCard";
 
 function SessionStats() {
 
     const { state } = useTimer();
 
-    const totalStudyTime = state.history.reduce(
-        (total, session) => total + session.duration,
-        0
-    );
+    const totalStudyTime = useMemo(() => {
+
+        return state.history.reduce(
+            (total, session) =>
+                total + Number(session.duration || 0),
+            0
+        );
+
+    }, [state.history]);
+
+    const formatStudyTime = (minutes) => {
+
+        const hours = Math.floor(minutes / 60);
+
+        const mins = minutes % 60;
+
+        return hours > 0
+            ? `${hours}h ${mins}m`
+            : `${mins} min`;
+    };
 
     return (
         <section className="stats">
 
-            <div className="stat-card">
-                <h3>🏆 Completed Sessions</h3>
-                <p>{state.sessionsCompleted}</p>
-            </div>
+            <StatCard
+                title="Completed Sessions"
+                value={state.sessionsCompleted}
+                icon="🏆"
+            />
 
-            <div className="stat-card">
-                <h3>⏱ Study Time</h3>
-                <p>{totalStudyTime} min</p>
-            </div>
+            <StatCard
+                title="Study Time"
+                value={formatStudyTime(totalStudyTime)}
+                icon="⏱"
+            />
 
-            <div className="stat-card">
-                <h3>📚 Current Mode</h3>
-                <p>
-                    {state.mode === "study"
+            <StatCard
+                title="Current Mode"
+                value={
+                    state.mode === "study"
                         ? "Study"
-                        : "Break"}
-                </p>
-            </div>
+                        : "Break"
+                }
+                icon="📚"
+            />
 
         </section>
     );

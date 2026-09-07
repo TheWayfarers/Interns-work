@@ -12,8 +12,16 @@ function History() {
             {state.history.length === 0 ? (
 
                 <div className="empty-state">
-                    <h3>No study sessions yet.</h3>
-                    <p>Complete a study session to see it here.</p>
+
+                    <h3>
+                        No study sessions yet.
+                    </h3>
+
+                    <p>
+                        Complete a study session
+                        to see it here.
+                    </p>
+
                 </div>
 
             ) : (
@@ -31,8 +39,15 @@ function History() {
                             >
 
                                 <div>
-                                    <h3>📚 {session.type}</h3>
-                                    <p>{session.date}</p>
+
+                                    <h3>
+                                        📚 {session.type}
+                                    </h3>
+
+                                    <p>
+                                        {session.date}
+                                    </p>
+
                                 </div>
 
                                 <strong>

@@ -22,6 +22,7 @@ function Header() {
             <nav>
                 <Link to="/study">Study</Link>
                 <Link to="/history">History</Link>
+                <Link to="/notes">Notes</Link>
                 <Link to="/settings">Settings</Link>
             </nav>
 

@@ -1,9 +1,15 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {
+    BrowserRouter,
+    Routes,
+    Route
+} from "react-router-dom";
+
 import { useTimer } from "./context/TimerContext";
 
 import Header from "./components/Header";
 import Study from "./pages/Study";
 import History from "./pages/History";
+import Notes from "./pages/Notes";
 import Settings from "./pages/Settings";
 
 import "./App.css";
@@ -13,7 +19,13 @@ function App() {
     const { state } = useTimer();
 
     return (
-        <div className={state.darkMode ? "app dark" : "app"}>
+        <div
+            className={
+                state.theme === "dark"
+                    ? "app dark"
+                    : "app"
+            }
+        >
 
             <div className="container">
 
@@ -36,6 +48,11 @@ function App() {
                         <Route
                             path="/history"
                             element={<History />}
+                        />
+
+                        <Route
+                            path="/notes"
+                            element={<Notes />}
                         />
 
                         <Route
