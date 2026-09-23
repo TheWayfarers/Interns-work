@@ -6,9 +6,9 @@ Work through topics **in order**. Each module has **what to learn** and **tasks*
 |--------|-------|---|
 | [Git basics](git-basics/) | Repo workflow, branches, PRs | Start here |
 | [Web & JavaScript](web-js/) | HTML, CSS, JavaScript | After Git basics |
-| [Mini-projects](../tasks/) | Expense Tracker, Contact Book, Study Timer | After basics (or when assigned) |
-| React | Components, state, props | Coming soon |
-| Node.js | Server-side JavaScript | Coming soon |
+| [Mini-projects](../tasks/) | Tasks 01–04 (vanilla web) | After basics |
+| [FE — React Posts](../tasks/05-fe-react-posts/) | React, fetch, components | After Task 04 |
+| [BE — Express API](../tasks/06-be-express-api/) | Express REST CRUD | After Task 04 |
 
 ## How to use each module
 

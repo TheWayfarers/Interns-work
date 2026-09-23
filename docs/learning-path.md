@@ -47,6 +47,7 @@ Topics to cover, in order. Follow `practices/` for exact tasks. **No fixed timel
 | 01 | Expense Tracker | Forms, arrays, filter, totals |
 | 02 | Contact Book | CRUD, search, validation |
 | 03 | Study Timer | Intervals, state, DOM updates |
+| 04 | Posts Feed | Mock API, fetch, async/await, render |
 
 → [Mini-project tasks](../tasks/)
 
@@ -54,31 +55,33 @@ Topics to cover, in order. Follow `practices/` for exact tasks. **No fixed timel
 
 ---
 
-## 4. React *(coming soon)*
+## 4. Frontend (React)
 
-**Focus:** Components, props, state.
+**Focus:** Components, state, and calling APIs.
 
-| Will cover | Outcome |
-|------------|---------|
-| JSX & components | Build UI from reusable pieces |
-| `useState` | Handle user input and updates |
-| Props & lists | Pass data between components |
+| # | Project | Outcome |
+|---|---------|---------|
+| 05 | FE: React Posts App | Components, `useEffect`, fetch, forms |
+
+→ [Task 05](../tasks/05-fe-react-posts/)
 
 **Learn:** [React links](references.md#react-when-you-reach-this-module) · [Full Stack Open Part 1–2](https://fullstackopen.com/en/part1)
 
 ---
 
-## 5. Node.js *(coming soon)*
+## 5. Backend (Node + Express)
 
-**Focus:** JavaScript on the server.
+**Focus:** REST API on the server.
 
-| Will cover | Outcome |
-|------------|---------|
-| Modules (`import` / `require`) | Split code into files |
-| Simple HTTP server or Express | Build a basic API |
-| Read/write files or JSON | Handle data |
+| # | Project | Outcome |
+|---|---------|---------|
+| 06 | BE: Express Posts API | Routes, CRUD, CORS, status codes |
+
+→ [Task 06](../tasks/06-be-express-api/)
 
 **Learn:** [Node.js links](references.md#nodejs-when-you-reach-this-module) · [Full Stack Open Part 3](https://fullstackopen.com/en/part3)
+
+**Connect FE + BE:** Point Task 05 `API_BASE` to `http://localhost:3001` after Task 06 runs.
 
 ---
 

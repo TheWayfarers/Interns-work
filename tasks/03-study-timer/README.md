@@ -100,4 +100,4 @@ Track state with variables: `timeLeft`, `isRunning`, `mode` (`study` | `break`),
 - [HTML, CSS, JS links](../../docs/references.md)
 - [Example folder layout](../../interns/_example/README.md)
 
-**All mini-project tasks complete?** Tell your mentor — next up: React (coming soon).
+**All mini-project tasks complete?** Tell your mentor — or continue to [Task 04 — Posts Feed](../04-posts-feed/).

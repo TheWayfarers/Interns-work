@@ -34,6 +34,11 @@ interns/your-name/
     │   └── ...
     └── 03-study-timer/
         └── ...
+    └── 04-posts-feed/
+        ├── index.html
+        ├── style.css
+        ├── script.js
+        └── mock-api.js
 ```
 
 ## Sample files
@@ -52,12 +57,13 @@ interns/your-name/
 | `web-js/react-basics/Counter.jsx` | Simple React component |
 | `web-js/node-basics/hello.js` | Node script — run with `node hello.js` |
 | `tasks/01-expense-tracker/` | Mini-project layout — `index.html`, `style.css`, `script.js` |
+| `tasks/04-posts-feed/mock-api.js` | Example mock API with delay |
 
 ## Mini-project tasks
 
-Full project specs live in [tasks/](../../tasks/). Work goes in `interns/<your-name>/tasks/01-expense-tracker/` (same folder name as the task).
+Full project specs live in [tasks/](../../tasks/). Work goes in `interns/<your-name>/tasks/04-posts-feed/` (same folder name as the task).
 
-See [Task 01 spec](../../tasks/01-expense-tracker/) for requirements. Build your own version — do not copy from others.
+See [Task 04 spec](../../tasks/04-posts-feed/) for fetch + mock API requirements. Build your own version — do not copy from others.
 
 ## How to run JS examples
 

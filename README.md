@@ -8,7 +8,7 @@ Daily practice repo for learning **Web, React, and Node** — and Git along the 
 2. Read [CONTRIBUTING.md](CONTRIBUTING.md)
 3. See what to cover → [Learning path](docs/learning-path.md)
 4. Start basics → [Git basics](practices/git-basics/)
-5. Mini-projects → [Tasks](tasks/) (one at a time)
+5. Mini-projects → [Tasks](tasks/) (01–04 vanilla, then **05 FE** + **06 BE**)
 6. Work only inside your folder: `interns/<your-name>/`
 
 ## Folder guide
@@ -16,7 +16,7 @@ Daily practice repo for learning **Web, React, and Node** — and Git along the 
 ```
 interns-work/
 ├── practices/          → Step-by-step basics (Git, HTML, CSS, JS)
-├── tasks/              → Full mini-projects (HTML + CSS + JS)
+├── tasks/              → Mini-projects + FE (React) + BE (Express)
 ├── interns/            → Your personal work (one folder per person)
 ├── templates/          → Copy these for daily logs
 └── docs/               → Cheatsheets, learning path, reference links
