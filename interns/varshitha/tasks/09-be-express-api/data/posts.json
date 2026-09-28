@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Hello API",
+    "body": "This is my first post from the server.",
+    "createdAt": "2026-09-22T10:00:00.000Z"
+  },
+  {
+    "id": 2,
+    "title": "Learning Node.js",
+    "body": "I am learning how backend APIs work with Node.js.",
+    "createdAt": "2026-09-23T10:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "title": "Learning Express",
+    "body": "Express makes it easier to create APIs with Node.js.",
+    "createdAt": "2026-09-24T10:00:00.000Z"
+  }
+]
