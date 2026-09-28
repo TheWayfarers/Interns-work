@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #222;
+}
+
+button {
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #2563eb;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.app-header {
+    text-align: center;
+    padding: 30px 20px;
+    background: #1e293b;
+    color: white;
+}
+
+.app-header h1 {
+    margin: 0 0 8px;
+}
+
+.app-header p {
+    margin: 0;
+}
+
+.container {
+    width: min(1000px, 92%);
+    margin: 30px auto;
+}
+
+.post-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.post-form h2 {
+    margin-top: 0;
+}
+
+.post-form input,
+.post-form textarea,
+.search {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.search {
+    background: white;
+}
+
+.post-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+}
+
+.post-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.post-card h2 {
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.post-card p {
+    line-height: 1.6;
+    color: #555;
+}
+
+.post-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.post-detail {
+    margin-top: 25px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+}
+
+.detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-detail h1 {
+    text-transform: capitalize;
+}
+
+.post-detail p {
+    line-height: 1.7;
+}
+
+.status {
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+}
+
+.error {
+    color: #dc2626;
+}

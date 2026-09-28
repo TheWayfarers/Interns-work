@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts Feed</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Posts Feed</h1>
+        <p>Explore posts loaded from a mock or live API.</p>
+    </header>
+
+    <main>
+        <section class="controls">
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search by title..."
+            >
+
+            <select id="api-source">
+                <option value="mock">Mock API</option>
+                <option value="live">Live API</option>
+            </select>
+
+            <button id="reload-button">Reload</button>
+        </section>
+
+        <section id="status-area">
+            <p id="loading-message">Loading posts...</p>
+            <p id="error-message"></p>
+        </section>
+
+        <section id="posts-list" class="posts-grid"></section>
+
+        <section id="post-detail" class="post-detail">
+            <h2>Post Details</h2>
+            <p>Select a post to see its details.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Varshitha | September 2026</p>
+    </footer>
+
+    <script src="mock-api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
